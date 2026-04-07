@@ -4,6 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "postinstall": "npx husky install",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "type": "module",
@@ -18,5 +19,8 @@
     "eslint": "^10.1.0",
     "globals": "^17.4.0",
     "prettier": "3.8.1"
+  },
+  "dependencies": {
+    "husky": "^9.1.7"
   }
 }

@@ -17,9 +17,9 @@ export default [
       },
     },
     rules: {
-      "no-unused-vars": "warn",
-      "no-undef": "warn",
-      semi: [], // Exemplo: obriga ponto e vírgula
+      "no-unused-vars": "error",
+      "no-undef": "error",
+      semi: [error, "always"], // Exemplo: obriga ponto e vírgula
     },
   },
 ];

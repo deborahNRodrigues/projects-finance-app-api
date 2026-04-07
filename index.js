@@ -1,4 +1,3 @@
-const name = "";
-
-
+const name = "Diogo";
+console.log(name);
 
